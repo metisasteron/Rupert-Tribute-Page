@@ -1,0 +1,103 @@
+body {
+    background-color: #e1d7c5;
+    margin: 0;
+    font-family: Georgia, serif;
+  }
+  
+  header {
+    background-color: 
+  #bc7249;
+    padding: 20px;
+    border-bottom: 3px solid #794930;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #img-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  #image {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+  }
+
+  figcaption {
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  #tribute-info {
+    font-size: 1.2rem;
+  }
+  
+  .indent {
+    text-indent: -1.5rem;
+    margin: 10px 45px;
+  }
+  
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  ul {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  ul > li {
+    margin: 10px 0;
+  }
+  
+  .date {
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  #link-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+  
+  a {
+    color: #bc7249;
+  }
+  
+  a:visited {
+    color: #794930;
+  }
+  
+  a:hover {
+    color: #e1d7c5;
+    background-color: #bc7249; 
+  }
